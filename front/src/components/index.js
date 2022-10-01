@@ -1,0 +1,6 @@
+export {default as Title} from './Title'
+export {default as Navbar} from './Navbar'
+export {default as Home} from './Home/Home'
+export {default as Qa} from './QA/Qa'
+export {default as Ranking} from './Ranking/Ranking'
+export {default as Question} from './QA/Question'
