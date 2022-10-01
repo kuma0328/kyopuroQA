@@ -5,11 +5,18 @@ import (
 	"os"
 	"time"
 
-	"github.com/kuma0328/kyopuroQA/server/model"
-
 	"github.com/jinzhu/gorm"
 	_ "github.com/lib/pq"
 )
+
+type DB struct {
+	Host string
+	Port string
+	Username string
+	Password string
+	DBName string
+	Conn *gorm.DB
+}
 
 func NewDB() DB {
 	// DBの環境変数
