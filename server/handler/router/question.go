@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/kuma0328/kyopuroQA/server/handler"
+	"github.com/kuma0328/kyopuroQA/server/handler/handlefunc"
 	"github.com/gin-gonic/gin"
 )
 
