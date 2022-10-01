@@ -1,4 +1,4 @@
-package handler
+package handlefunc
 
 import (
 	"net/http"
